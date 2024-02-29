@@ -9,25 +9,225 @@
 </head>
 <body>
     <%- include('./partials/navbar') %>
-    <div class="content">
-        <h1>Bienvenido a Nuestro Sitio Web</h1>
-        <p>Descubre más sobre lo que tenemos para ofrecerte.</p>
-        <div class="image-section">
-            <img src="/img/logo.png" alt="Imagen Ejemplo" class="home-image">
-            <p>Explora nuestros servicios y productos.</p>
+    <div id="container">
+        <nav id="sidebar">
+          <div class="sidebar-header">
+            <h1>Santiago Godoy</h1>
+            <p>Web Developer</p>
+          </div>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="social-media-icons">
+            <a href="https://www.linkedin.com/in/santiago-godoy-a16637158/" target="_blank">
+              <img src="img/linkedin.png" alt="linkedin" />
+            </a>
+            <a href="https://github.com/sgodoysa" target="_blank">
+              <img src="img/github.png" alt="github" />
+            </a>
+            <a href="https://stackoverflow.com/users/23427707/santiago" target="_blank">
+              <img src="img/stackoverflow.png" alt="stackoverflow" />
+            </a>
+            <a href="https://google.com" target="_blank">
+              <img src="img/medium.png" alt="medium" />
+            </a>
+            <a href="https://google.com" target="_blank">
+              <img src="img/twitter.png" alt="twitter" />
+            </a>
+            <a href="https://google.com" target="_blank">
+              <img src="img/reddit.png" alt="reddit" />
+            </a>
+          </div>
+        </nav>
+        <div id="main-content">
+          <section id="about">
+              <p>Hello! I’m currently navigating the exciting path of Web Application Development, an area I've delved into with great enthusiasm after pursuing a degree in Aerospace Engineering at the University of Seville. This previous experience has honed my analytical and problem-solving skills, which I now apply to the dynamic and ever-evolving domain of web technologies.</p>
+          
+              <p>Programming has captivated me with its endless possibilities and the satisfaction of building something from the ground up. Java and SQL are the languages where I find myself most at home, allowing me to create structured and efficient back-end operations and manage complex databases with ease.</p>
+          
+              <p>What I believe sets me apart is my approach to problem-solving: I am methodical and resourceful when faced with challenges, always eager to learn and expand my knowledge base. Collaboration is another cornerstone of my professional ethos. I thrive in team settings, valuing the collective effort and the diverse perspectives each member brings to a project. My high proficiency in English enhances my ability to communicate and work effectively with international peers.</p>
+          
+              <p>Outside the realm of coding, I have a deep appreciation for music. Playing the guitar and performing with my band offers a creative outlet and a way to recharge. This passion for music provides me with a balanced perspective, infusing creativity into my technical work.</p>
+          
+              <p>As I forge ahead in my career, I am keen on merging my analytical abilities, cooperative spirit, and creative flair to contribute to meaningful web development projects.</p>
+            </br></br>
+          </section>
+          
+          <section id="experience">
+            <div class="experience-item">
+              <div class="experience-media">
+                <img src="img/ntt.jpg" alt="NTT DATA Project Screenshot" />
+              </div>
+              <div class="experience-content">
+                <div class="experience-timeframe">2023 - present</div>
+                <a href="https://es.nttdata.com/" class="experience-link">
+                  <div class="experience">
+                    <div class="experience-title">NTT DATA Junior Developer</div>
+                    <div class="experience-location">Seville</div>
+                    <div class="experience-description">
+                      Java and SQL Developer in AOD team working in La Caixa project.
+                    </div>
+                    <div class="experience-skills">
+                      <span class="skill">Java</span>
+                      <span class="skill">SQL</span>
+                      <span class="skill">Linux</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+  
+            <div class="experience-item">
+              <div class="experience-media">
+                <img src="img/cesur.png" alt="cesur logo" />
+              </div>
+              <div class="experience-content">
+                <div class="experience-timeframe">2022 - present</div>
+                <a href="https://www.cesurformacion.com/fp/desarrollo-de-aplicaciones-web" class="experience-link">
+                  <div class="experience">
+                    <div class="experience-title">Web Applications Development</div>
+                    <div class="experience-location">Seville</div>
+                    <div class="experience-description">
+                      Certificate of Higher Education (HNC)
+                    </div>
+                    <div class="experience-skills">
+                      <span class="skill">Java</span>
+                      <span class="skill">SQL</span>
+                      <span class="skill">Javascript</span>
+                      <span class="skill">Linux</span>
+                      <span class="skill">PHP</span>
+                      <span class="skill">HTML</span>
+                      <span class="skill">CSS</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+  
+            <div class="experience-item">
+              <div class="experience-media">
+                <img src="img/unnamed.png" alt="ikea logo" />
+              </div>
+              <div class="experience-content">
+                <div class="experience-timeframe">2021</div>
+                <a href="https://www.ikea.com/es/es/" class="experience-link">
+                  <div class="experience">
+                    <div class="experience-title">Operations Team</div>
+                    <div class="experience-location">Seville</div>
+                    <div class="experience-description">
+                      Macro management and operating the stock management application, ensuring inventory control processes.
+                    </div>
+                    <div class="experience-skills">
+                      <span class="skill">Excel</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+  
+            <div class="experience-item">
+              <div class="experience-media">
+                <img src="img/US.png" alt="US logo" />
+              </div>
+              <div class="experience-content">
+                <div class="experience-timeframe">2015 - 2021</div>
+                <a href="https://www.us.es/estudiar/que-estudiar/oferta-de-grados/grado-en-ingenieria-aeroespacial" class="experience-link">
+                  <div class="experience">
+                    <div class="experience-title">Aerospace Engineering</div>
+                    <div class="experience-location">University of Seville</div>
+                    <div class="experience-description">
+                      Bachelor’s Degree (B) </br>
+                      Specialization in Air Navigation
+                    </div>
+                    <div class="experience-skills">
+                      <span class="skill">Matlab</span>
+                      <span class="skill">Autocad</span>
+                      <span class="skill">Catia</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+          </section>
+          <section id="projects">
+            <a href="proyectos/restaurante/Inicio.html" class="project-item-link" target="_blank">
+              <div class="project-item experience">
+                <div class="project-media">
+                  <img src="img/lamarea2.png" alt="La Marea" />
+                </div>
+                <div class="project-content">
+                  <div class="project-header">
+                    <h3>La Marea Restaurant Webpage</h3>
+                  </div>
+                  <p>Website developed for La Marea restaurant, facilitating menu browsing and reservation bookings for users.</p>
+                  <div class="project-stats">
+                    <span>★ 4.8</span>
+                  </div>
+                  <div class="project-tags">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+  
+            <a href="proyectos/nirvana/nirvana.html" class="project-item-link" target="_blank">
+              <div class="project-item experience">
+                <div class="project-media">
+                  <img src="img/nirvana.png" alt="La Marea" />
+                </div>
+                <div class="project-content">
+                  <div class="project-header">
+                    <h3>Nirvana History Webpage</h3>
+                  </div>
+                  <p>Nirvana history website was developed using HTML.</p>
+                  <div class="project-stats">
+                    <span>★ 4</span>
+                  </div>
+                  <div class="project-tags">
+                    <span class="skill">HTML</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+             
+          
+            
+  
+          </section>
+          <section id="contact">
+            <div class="experience">
+                <h2>Contact</h2>
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-button">Send</button>
+                </form>
+            </div>
+          </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+        </section>
+        
+        
         </div>
-        <div class="about-section">
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos una empresa dedicada a proporcionar soluciones tecnológicas innovadoras. Nuestro compromiso es con la calidad, la innovación y la satisfacción total del cliente. Creemos en crear valor a través de la tecnología, ofreciendo productos y servicios que superen las expectativas. Nuestra visión es ser líderes en el mercado tecnológico, reconocidos por nuestra capacidad de adaptación y nuestra cultura orientada al futuro.</p>
-        </div>
-        <div class="services-section">
-            <h2>Nuestros Servicios</h2>
-            <ul class="services-list">
-                <li><strong>Desarrollo de Software a Medida:</strong> Creamos soluciones de software personalizadas, diseñadas para satisfacer tus necesidades específicas.</li>
-                <li><strong>Consultoría Tecnológica:</strong> Ofrecemos asesoramiento experto para optimizar tus operaciones y estrategias tecnológicas.</li>
-                <li><strong>Soporte y Mantenimiento de Sistemas:</strong> Proporcionamos soporte continuo y mantenimiento para asegurar el óptimo funcionamiento de tus sistemas.</li>
-            </ul>
-        </div>
-    </div>
+      </div>
 </body>
 </html>
